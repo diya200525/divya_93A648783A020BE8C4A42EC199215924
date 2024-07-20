@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cutomer information</title>
+    <style>
+        div {
+            width: 400px;
+            border: 5px solid rgb(46, 7, 153);
+            padding: 100px;
+            margin: 100px;
+            background-color: rgb(243, 123, 129);
+            text-align: justify;
+        }
+
+        .sk {
+            background-color: rgb(46, 7, 153);
+            color: #f3ebeb;
+            font-size: larger;
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <center>
+        <div>
+            <header>
+                <h1>Customer Information Form</h1>
+            </header>
+            <p> Please fill out the customer information form below to join.
+                Fields marked with a red star are mandatory.</p>
+            <hr>
+            <br>
+            Customer Nmae*
+
+            <br>
+            <input type="text" placeholder="frist name" size="10px">
+            <input type="text" placeholder="last name" size="10px">
+            <input type="text" placeholder="intial name" size="10px">
+            <br>
+            <br>
+            Customer Address*
+
+            <br>
+            <input type="text" placeholder="Street Address" size="60">
+            <br><br>
+            <input type="text" placeholder="Street Address line 2" size="60">
+            <br><br>
+            <input type="text" placeholder="City" size="20px">
+            <input type="text" placeholder="Region " size="20px">
+            <br><br>
+            <input type="text" placeholder="Postal/Zip code" size="20px">
+            <select>
+                <option value="    " selected="select" aria-disabled="true">country</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+                <option value="Brazil">Brazil</option>
+                <option value="Iran">Iran</option>
+                <option value="Chad">Chad</option>
+                <option value="Australla">Australla</option>
+                <option value="Korea">Korea</option>
+                <option value="U.K.">U.K.</option>
+                <option value="Ireland">Ireland</option>
+                <option value="Thailand">Thailand</option>
+            </select>
+            <br>
+            <br>
+           <br>
+            Customer Phone*
+            <br>
+            <input type="text" placeholder="#############" size="20px"></input><br>
+            Customer Fax
+            <br>
+            <input type="text" placeholder="#############" size="20px"></input>
+            <br><br>
+            Cutomer Date of Birth<br>
+            <input type="date" placeholder="" size="20px"></input><br>
+            Customer ID/Email<br>
+            <input type="email" placeholder="EMAIL-ID" size="20px"></input>
+            <br>
+            <br>
+            <p> All customer information will be kept with descretion and will
+                not be used for other marketing or advertisment purpose without customer approval.
+            </p>
+            <br>
+            <input type="checkbox">allow my information to be used for future campaigns
+            </input>
+
+            <br><br>
+            <center>
+                <button class="sk" type="button" onclick="alert('Your Information Is Successfully Send')"> Send
+                    Information</button>
+            </center>
+
+        </div>
+    </center>
+
+</body>
+
+</html>
