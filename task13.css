@@ -1,0 +1,52 @@
+body{
+    background-image: -webkit-image-set("c:/Users/admin/Pictures/img.png");
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+.html {
+    background-color: paleturquoise;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align: left;
+    width: 300px;
+    height: 500px;    
+    left: 10%; 
+    top: 7%;  
+    position: absolute;
+    overflow: scroll;
+}
+.css {
+            
+    background-color: cadetblue;
+    background-image: -webkit-image-set("c:/Users/admin/Pictures/CSS_Logo.png") ;
+    background-repeat: no-repeat;
+    padding: 50px;
+    text-align:left;
+    justify-content: center;
+    position: absolute;
+    top: 7%;
+    left: 40%;
+    width: 300px;
+    height: 500px;
+    background-position: center;
+    overflow: scroll;
+    background-attachment: fixed;
+             
+}
+.js {
+    background-image: -webkit-image-set("c:/Users/admin/Pictures/download.png");
+    justify-content: center;
+    position: absolute;
+    background-position: center;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    top: 7%;
+    left: 70%;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(93, 228, 233);
+    padding: 50px;
+    text-align: left; 
+    background-repeat: repeat;
+    background-attachment:local;
+}
