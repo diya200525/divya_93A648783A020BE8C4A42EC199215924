@@ -1,0 +1,166 @@
+body{
+    font-family: "Outfit", sans-serif;
+    width: 150%;
+    border: 1px solid blue;
+    border-width: 400px;
+    
+    background: linear-gradient(
+      to right,
+      #ffff 1%,
+      #fff 50.5%,
+      #f8faf9 50%,
+      #f3f8f7 100%
+    );
+    overflow: scroll;
+    
+  }
+  .main{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 50px;
+    width: 20%;
+    background-color:rgb(247, 240, 240) ;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .checkbox{
+        hr{
+          margin-top: 40px;
+          border-color: #ffffff7c;
+        }
+     p{
+         display:inline;
+         background-color: rgb(255, 255, 255);
+         color: gray;
+         left: 35%;
+         font-size: 11px;
+         margin-top: 20px;
+         position: relative;
+         top: -20px;
+     }
+     }
+  .signup-btn{
+    color: rgb(137, 125, 241);
+    text-decoration: underline;
+    margin: none;
+  }
+  .log{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .google-btn{
+    display: inline;
+    padding: 8px;
+    position: relative;
+    left: 20px;
+    img{
+        display: inline;
+        vertical-align: middle;
+        position: relative;
+        left: -5px;
+        width: 16px;
+        height: 16px;
+    }
+    button{
+        background-color: transparent;
+        position: relative;
+        width:100px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border: 1px solid rgb(110, 203, 247);
+        padding: 8px;
+    }
+
+}
+.facebook-btn{
+    display: inline;
+    padding: 8px;
+    position: relative;
+    left: 20px;
+    img{
+        display: inline;
+        vertical-align: middle;
+        position: relative;
+        left: -5px;
+        width: 16px;
+        height: 16px;
+    }
+    button{
+        background-color: transparent;
+        position: relative;
+        width:100px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border: 1px solid rgb(72, 12, 182);
+        padding: 8px;
+    }
+
+}
+.apple-btn{
+    display: inline;
+    padding: 8px;
+    position: relative;
+    left: 20px;
+   
+    img{
+        display: inline;
+        vertical-align: middle;
+        position: relative;
+        left: -5px;
+        width: 16px;
+        height: 16px;
+    }
+    button{
+        background-color: transparent;
+        position: relative;
+        width:100px;
+        font-size: 14px;
+        border: none;
+        cursor: pointer;
+        border: 1px solid black;
+        padding: 8px;
+    }
+}
+.login-btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3d4ee4;
+    margin-bottom: 20px;
+    img{
+      display: inline;
+      vertical-align: middle;
+      position: relative;
+      left: 120px;
+      width: 16px;
+      height: 16px;
+      color: white;
+    }
+ }
+p{
+    padding: 1px;
+    margin: 1px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    background-color: transparent;
+}
+.sub-img{
+    img{
+        position: absolute;
+        top: 500px;
+        right: 300px;
+        width: 500px;
+        height: 500px;
+    }
+
+    }
+.content input{
+    height: 30px;
+    width: 300px;
+}
